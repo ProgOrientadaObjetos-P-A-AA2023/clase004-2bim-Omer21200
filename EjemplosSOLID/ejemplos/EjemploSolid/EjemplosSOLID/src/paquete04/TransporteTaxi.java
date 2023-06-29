@@ -16,8 +16,8 @@ public class TransporteTaxi extends Transporte {
     public void establecerCooperativaTaxi(String n){
         cooperativaTaxi = n;
     }
-    
-    
+        
+    @Override
     public void establecerTarifa(){
         tarifa = 0.40 + (0.40*0.5);
     }
